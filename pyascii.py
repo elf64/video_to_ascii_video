@@ -11,7 +11,7 @@ class Pyascii:
     def __init__(self):
         self.bg_color = 'black'
         self.default_chars = list('_^:-=fg#%@')
-        self.font = 'Anonymous_Pro.ttf'
+        #self.font = 'Anonymous_Pro.ttf' -> Not used anymore!
         self.char_brightness_list = self.char_brightness()
 
     def avg_brightness_pixel(self, r, g, b):
